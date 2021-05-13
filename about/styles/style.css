@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "main";
+  src: url("/Users/mac/Desktop/website/work/PFDinTextUniversal.ttf");
+}
+
+@font-face {
+  font-family: "thin";
+  src: url("/Users/mac/Desktop/website/work/PFDinTextUniversal-Thin.ttf");
+}
+
+body {
+  background-color: #cac7c7;
+}
+
+.background img {
+  width: 100%;
+  position: relative;
+  opacity: 70%;
+}
+
+.background h1 {
+  position: absolute;
+  top: 75px;
+  height: 100px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: white;
+  font-family: "main";
+  font-size: 48px;
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+}
+
+.background h2 {
+  position: relative;
+  top: -800px;
+  text-align: center;
+  color: white;
+  font-family: "thin";
+  font-size: 30px;
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+}
+
+.background h3 {
+  position: relative;
+  top: -700px;
+  text-align: center;
+  color: white;
+  font-family: "main";
+  font-size: 35px;
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+}
+
+.background h4 {
+  position: relative;
+  top: -600px;
+  text-align: center;
+  color: white;
+  font-family: "thin";
+  font-size: 30px;
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+}
+/*# sourceMappingURL=style.css.map */

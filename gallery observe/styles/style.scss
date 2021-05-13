@@ -1,0 +1,239 @@
+
+@font-face{
+    font-family: "main";
+    src: url("/Users/mac/Desktop/website/work/PFDinTextUniversal.ttf")
+}
+
+body {
+    background-color: white;
+}
+
+.gallery{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    align-content: center;
+
+    .cssSlider {
+        display: block;
+        position: relative;
+        width: 70%;
+        overflow: hidden;
+    }
+    .cssSlider .slides {
+        overflow: hidden;
+        overflow: hidden;
+        align-content: center;
+        width: 100%;
+        height: 70vmin;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    .cssSlider .slides > li {
+        width: 100%;
+        height: 70vmin;
+        position: absolute;
+        z-index: 1;
+        overflow: hidden;
+    }
+    .cssSlider .slides > li > img {
+        width: 100%;
+        height: auto;
+    }
+    /*
+    .cssSlider .slides > li:first-child:not(:target) {
+        z-index: 1;
+        -webkit-transform: translateY(0%);
+                transform: translateY(0%);
+    }
+    */
+    .cssSlider .thumbnails {
+        display: block;
+        position: relative;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+    .cssSlider .thumbnails > li {
+        float: left;
+        width: 20%;
+    }
+    .cssSlider .thumbnails > li > a {
+        display: block;
+    }
+    .cssSlider .thumbnails > li > a > img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .cssSlider .slides li:target {
+        z-index: 3;
+        -webkit-animation: slide 1s 1;
+    }
+    .cssSlider .slides li:not(:target) {
+        -webkit-animation: hidden 1s 1;
+    }
+    @-webkit-keyframes slide {
+        0% {
+            -webkit-transform: translateX(-100%);
+                    transform: translateX(-100%);
+        }
+        100% {
+            -webkit-transform: translateX(0%);
+                    transform: translateX(0%);
+        }
+    }
+    @keyframes slide {
+        0% {
+            -webkit-transform: translateX(-100%);
+                    transform: translateX(-100%);
+        }
+        100% {
+            -webkit-transform: translateX(0%);
+                    transform: translateX(0%);
+        }
+    }
+    @-webkit-keyframes hidden {
+        0% {
+            z-index: 2;
+            -webkit-transform: translateX(0%);
+                    transform: translateX(0%);
+        }
+        100% {
+            z-index: 2;
+            -webkit-transform: translateX(100%);
+                    transform: translateX(100%);
+        }
+    }
+    @keyframes hidden {
+        0% {
+            z-index: 2;
+            -webkit-transform: translateX(0%);
+                    transform: translateX(0%);
+        }
+        100% {
+            z-index: 2;
+            -webkit-transform: translateX(100%);
+                    transform: translateX(100%);
+        }
+    }
+
+}
+
+
+
+
+
+
+
+
+
+// .gallery{
+//     width: 100%;
+//     display: flex;
+//     flex-direction: column;
+//     margin-bottom: 20px;
+
+//     .image1 img{
+//         width: 30%;
+//         margin-bottom: 20px;
+//     }
+
+//     .image2 img{
+//         width: 30%;
+//         margin-bottom: 20px;
+//     }
+
+//     .image3 img{
+//         width: 30%;
+//         margin-bottom: 20px;
+//     }
+
+//     .image4 img{
+//         width: 30%;
+//         margin-bottom: 20px;
+//     }
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+//     -second-images{
+//         display: flex;
+//         justify-content: space-between;
+//     }
+
+//     &-second-image-s{
+//         width: 50%;
+//     }
+
+//     &-second-image-m{
+//         width: 40%;
+//     }
+// }
+
+// .about{
+//     width: 100%;
+
+//     p{
+//         font-family: Georgia, 'Times New Roman', Times, serif;
+//         font-size: 13px;
+//     }
+// }
+
+// .contacts{
+//     width: 100%;
+//     display: flex;
+//     flex-direction: column;
+
+//     &-headline{
+//         height: 269px;
+//         display: flex;
+//         justify-content: center;
+//         align-items: center;
+
+//         h2{
+//             color: white;
+//             font-family: Georgia, 'Times New Roman', Times, serif;
+//             font-size: 28px;
+//         }
+//     }
+
+//     &-buttons{
+//         width: 100%;
+//         display: flex;
+//         flex-direction: column;
+
+//         a{
+//             text-decoration: none;
+//         }
+//     }
+
+//     &-buttons{
+//         background-color: #A98989;
+//         border: 1px solid black;
+//         border-radius: 14px;
+//         padding: 22px;
+//         margin-bottom: 20px;
+//         font-family: Georgia, 'Times New Roman', Times, serif;
+//         font-size: 24px;
+//         text-align: center;
+//         color: black;
+//     }
+
+//     &-button:hover{
+//         opacity: 0.5;
+//     }
+
+                
+// }

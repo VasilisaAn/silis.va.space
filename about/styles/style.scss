@@ -1,0 +1,172 @@
+
+@font-face{
+    font-family: "main";
+    src: url("/Users/mac/Desktop/website/work/PFDinTextUniversal.ttf")
+}
+@font-face{
+  font-family: "thin";
+  src: url("/Users/mac/Desktop/website/work/PFDinTextUniversal-Thin.ttf")
+}
+
+body {
+    background-color: #cac7c7;
+}
+
+
+.background{
+    img{
+        width: 100%;
+        position: relative;
+        opacity: 70%;
+
+    }
+    
+
+    h1{
+        position: absolute;
+        top: 75px;
+        height: 100px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: white;
+        font-family: "main";
+        font-size: 48px;
+        text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    }
+    
+    h2{
+      position: relative;
+      top: -800px;
+      text-align: center;
+      color: white;
+      font-family: "thin";
+      font-size: 30px;
+      text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    }
+
+    h3{
+      position: relative;
+      top: -700px;
+      text-align: center;
+      color: white;
+      font-family: "main";
+      font-size: 35px;
+      text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    
+    }
+    
+    h4{
+      position: relative;
+      top: -600px;
+      text-align: center;
+      color: white;
+      font-family: "thin";
+      font-size: 30px;
+      text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    
+    }
+}
+
+
+// .container{
+//     padding: 20px;
+// }
+
+// .top{
+//     height: 287px;
+//     width: 100%;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+
+//     h1{
+//         color: white;
+//         font-family: Georgia, 'Times New Roman', Times, serif;
+//         font-size: 48px;
+
+//     }
+// }
+
+// .gallery{
+//     width: 100%;
+//     display: flex;
+//     flex-direction: column;
+//     margin-bottom: 20px;
+
+//     &-top-image{
+//         width: 60%;
+//         margin-bottom: 20px;
+//     }
+
+//     &-second-images{
+//         display: flex;
+//         justify-content: space-between;
+//     }
+
+//     &-second-image-s{
+//         width: 50%;
+//     }
+
+//     &-second-image-m{
+//         width: 40%;
+//     }
+// }
+
+// .about{
+//     width: 100%;
+
+//     p{
+//         font-family: Georgia, 'Times New Roman', Times, serif;
+//         font-size: 13px;
+//     }
+// }
+
+// .contacts{
+//     width: 100%;
+//     display: flex;
+//     flex-direction: column;
+
+//     &-headline{
+//         height: 269px;
+//         display: flex;
+//         justify-content: center;
+//         align-items: center;
+
+//         h2{
+//             color: white;
+//             font-family: Georgia, 'Times New Roman', Times, serif;
+//             font-size: 28px;
+//         }
+//     }
+
+//     &-buttons{
+//         width: 100%;
+//         display: flex;
+//         flex-direction: column;
+
+//         a{
+//             text-decoration: none;
+//         }
+//     }
+
+//     &-buttons{
+//         background-color: #A98989;
+//         border: 1px solid black;
+//         border-radius: 14px;
+//         padding: 22px;
+//         margin-bottom: 20px;
+//         font-family: Georgia, 'Times New Roman', Times, serif;
+//         font-size: 24px;
+//         text-align: center;
+//         color: black;
+//     }
+
+//     &-button:hover{
+//         opacity: 0.5;
+//     }
+
+                
+// }

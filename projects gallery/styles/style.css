@@ -1,0 +1,141 @@
+@font-face {
+  font-family: "main";
+  src: url("/Users/mac/Desktop/website/work/PFDinTextUniversal.ttf");
+}
+
+body {
+  background-color: white;
+}
+
+.gallery {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 20px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  /*
+    .cssSlider .slides > li:first-child:not(:target) {
+        z-index: 1;
+        -webkit-transform: translateY(0%);
+                transform: translateY(0%);
+    }
+    */
+}
+
+.gallery .cssSlider {
+  display: block;
+  position: relative;
+  width: 70%;
+  overflow: hidden;
+}
+
+.gallery .cssSlider .slides {
+  overflow: hidden;
+  overflow: hidden;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 100%;
+  height: 70vmin;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.gallery .cssSlider .slides > li {
+  width: 100%;
+  height: 70vmin;
+  position: absolute;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.gallery .cssSlider .slides > li > img {
+  width: 100%;
+  height: auto;
+}
+
+.gallery .cssSlider .thumbnails {
+  display: block;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.gallery .cssSlider .thumbnails > li {
+  float: left;
+  width: 20%;
+}
+
+.gallery .cssSlider .thumbnails > li > a {
+  display: block;
+}
+
+.gallery .cssSlider .thumbnails > li > a > img {
+  width: 100%;
+  height: auto;
+}
+
+.gallery .cssSlider .slides li:target {
+  z-index: 3;
+  -webkit-animation: slide 1s 1;
+}
+
+.gallery .cssSlider .slides li:not(:target) {
+  -webkit-animation: hidden 1s 1;
+}
+
+@-webkit-keyframes slide {
+  0% {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+  100% {
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+  }
+}
+
+@keyframes slide {
+  0% {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+  100% {
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+  }
+}
+
+@-webkit-keyframes hidden {
+  0% {
+    z-index: 2;
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+  }
+  100% {
+    z-index: 2;
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+}
+
+@keyframes hidden {
+  0% {
+    z-index: 2;
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+  }
+  100% {
+    z-index: 2;
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+}
+/*# sourceMappingURL=style.css.map */
